@@ -1,0 +1,17 @@
+{
+	"name": "file_storage_lnk",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "AzureFileStorage",
+		"typeProperties": {
+			"host": "",
+			"userId": "DefaultEndpointsProtocol=https;AccountName=esdcdevdshost;AccountKey=orhy6G3d/89q5SO9Ivt76J+aADKwzcr+gcU5fcpzWqovmx0F4CRRwk1fL937fzXKRD4n75Cd/+B5+AStIg0yRw==;EndpointSuffix=core.windows.net",
+			"connectionString": {
+				"type": "SecureString",
+				"value": "**********"
+			},
+			"fileShare": ""
+		},
+		"annotations": []
+	}
+}

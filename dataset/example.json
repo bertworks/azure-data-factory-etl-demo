@@ -1,0 +1,12 @@
+{
+	"name": "example",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "example",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable"
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

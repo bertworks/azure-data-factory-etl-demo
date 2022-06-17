@@ -1,0 +1,12 @@
+{
+	"name": "anonymous",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "Odbc",
+		"typeProperties": {
+			"connectionString": "Driver={SQL Server};Server=esdcdev-VM;Database=test;Uid=test;Pwd=test;",
+			"authenticationType": "Anonymous"
+		},
+		"annotations": []
+	}
+}
